@@ -1,0 +1,18 @@
+GreenTwin-SDG v3 · SHAP Analysis Report
+=======================================================
+
+Cluster: Health_Environment
+  Local accuracy residual : 0.000011  [PASS]
+  Top-3 cumulative var.   : 86.9%
+
+Cluster: Clean_Energy
+  Local accuracy residual : 0.000007  [PASS]
+  Top-3 cumulative var.   : 91.7%
+
+Cluster: Climate_Action
+  Local accuracy residual : 0.000003  [PASS]
+  Top-3 cumulative var.   : 77.1%
+
+Cluster: Institutional_Capacity
+  Local accuracy residual : 0.000005  [PASS]
+  Top-3 cumulative var.   : 81.3%

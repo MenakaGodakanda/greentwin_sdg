@@ -1,0 +1,5 @@
+SDG Cluster,Top Feature 1,|SHAP| 1,Top Feature 2,|SHAP| 2,Top Feature 3,|SHAP| 3,Cumulative Variance (%),SHAP Axiom Pass
+Health_Environment,electrification_rate,4.4235,clean_cooking_access,2.5993,urban_population_pct,1.901,86.9,True
+Clean_Energy,clean_cooking_access,5.4403,urban_population_pct,3.2911,pm25,0.9143,91.7,True
+Climate_Action,urban_population_pct,4.0238,clean_cooking_access,3.1004,electrification_rate,2.7001,77.1,True
+Institutional_Capacity,log_no2_roll3,4.0773,log_no2_roll6,1.3631,hei_roll6,0.9311,81.3,True

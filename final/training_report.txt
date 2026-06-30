@@ -1,0 +1,30 @@
+GreenTwin-SDG v3 · Training Report
+============================================================
+
+Cluster: Health_Environment
+  Train/Val/Test : 85/17/34
+  XGBoost MAE/RMSE/R² : 11.828 / 12.929 / 0.367
+  Ridge   MAE/RMSE/R² : 7.095 / 7.571 / 0.783
+  MAE Δ vs Ridge : -66.7%
+  Threshold (<6) : FAIL
+
+Cluster: Clean_Energy
+  Train/Val/Test : 85/17/34
+  XGBoost MAE/RMSE/R² : 9.371 / 11.252 / -0.563
+  Ridge   MAE/RMSE/R² : 6.169 / 7.191 / 0.362
+  MAE Δ vs Ridge : -51.9%
+  Threshold (<6) : FAIL
+
+Cluster: Climate_Action
+  Train/Val/Test : 85/17/34
+  XGBoost MAE/RMSE/R² : 3.197 / 3.845 / 0.000
+  Ridge   MAE/RMSE/R² : 3.162 / 4.387 / 0.000
+  MAE Δ vs Ridge : -1.1%
+  Threshold (<6) : PASS
+
+Cluster: Institutional_Capacity
+  Train/Val/Test : 85/17/34
+  XGBoost MAE/RMSE/R² : 4.179 / 4.846 / -0.670
+  Ridge   MAE/RMSE/R² : 17.001 / 21.731 / -32.581
+  MAE Δ vs Ridge : 75.4%
+  Threshold (<6) : PASS

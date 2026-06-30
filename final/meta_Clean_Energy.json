@@ -1,0 +1,45 @@
+{
+  "feature_cols": [
+    "pm25",
+    "pm10",
+    "no2",
+    "o3",
+    "co",
+    "dci",
+    "log_pm25",
+    "log_pm10",
+    "log_no2",
+    "log_o3",
+    "log_co",
+    "hei",
+    "obi",
+    "cop",
+    "sas",
+    "log_pm25_roll3",
+    "log_pm25_roll6",
+    "log_pm25_lag1",
+    "log_no2_roll3",
+    "log_no2_roll6",
+    "log_no2_lag1",
+    "hei_roll3",
+    "hei_roll6",
+    "hei_lag1",
+    "clean_cooking_access",
+    "electrification_rate",
+    "urban_population_pct"
+  ],
+  "best_params": {
+    "learning_rate": 0.013684038842243142,
+    "max_depth": 4,
+    "subsample": 0.8426020554216305,
+    "colsample_bytree": 0.8266070524938425,
+    "n_estimators": 200,
+    "random_state": 43
+  },
+  "test_countries": [
+    "Cambodia",
+    "Myanmar"
+  ],
+  "val_mae": 9.892366409301758,
+  "threshold_pass": false
+}
